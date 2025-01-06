@@ -1,0 +1,77 @@
+:root {
+    --font-family-primary: "Outfit", serif;
+    --fs-extra-small: 16px;
+    --fs-small: 20px;
+    --fs-sm: 24px;
+    --fs-lg: 48px;
+    --fs-xl: 72px;
+    --lh-20: 20.16px;
+    --lh-24: 24px;
+    --lh-25: 25.2px;
+    --lh-28: 28.8px;
+    --lh-30: 30px;
+    --lh-57: 57.6px;
+    --lh-86: 86.4px;
+    --opacity-70: 70%;
+    --opacity-80: 80%;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+.fs-extra-small {
+    font-size: var(--fs-extra-small);
+}
+
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.lh-20 {
+    line-height: var(--lh-20);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-25 {
+    line-height: var(--lh-25);
+}
+
+.lh-28 {
+    line-height: var(--lh-28);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-57 {
+    line-height: var(--lh-57);
+}
+
+.lh-86 {
+    line-height: var(--lh-86);
+}
+
+.opacity-70 {
+    opacity: 70%;
+}
+
+.opacity-80 {
+    opacity: 80%;
+}

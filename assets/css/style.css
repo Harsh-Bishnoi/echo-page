@@ -191,7 +191,13 @@ ul {
 }
 
 .slick-dots li button:before {
-    color: #FFFFFF !important;
+    font-size: 10px !important;
+    color: #ffffff !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 100% !important;
+    color: #00c8ff !important;
 }
 
 /***** section 2 done *****/
@@ -208,6 +214,7 @@ ul {
     background-color: #01000B !important;
     border: 1px solid #FFFFFF1A !important;
     border-radius: 12px !important;
+    position: relative;
 }
 
 .accordion-button {
@@ -221,6 +228,39 @@ ul {
 
 .accordion-header .accordion-button {
     border-radius: 12px !important;
+}
+
+.accordion-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: 12px !important;
+    background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+.accordion-button:not(.collapsed) {
+    position: relative;
+}
+
+.accordion-button:not(.collapsed)::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
 }
 
 .mb-356 {

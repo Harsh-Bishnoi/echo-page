@@ -3,9 +3,10 @@
 
 /***** header *****/
 .bg-img {
-    background-image: url("../images/aection-1-bg-img.png");
+    background-image: url("../images/bg-img.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 
 .bg-color {
@@ -83,15 +84,17 @@ ul {
 }
 
 .nav-btn-1:hover {
-    background: linear-gradient(103.52deg, #B2FEFA 0%,
-            #0ED2F7 51%,
-            #B2FEFA 100%);
+    background: linear-gradient(103.52deg, #32C8F1 18.99%, #3A3EF5 82.34%);
 }
 
 .nav-btn-2:hover {
-    background: linear-gradient(103.52deg, #B2FEFA 0%,
-            #0ED2F7 51%,
-            #B2FEFA 100%);
+    background: linear-gradient(103.52deg, #32C8F1 18.99%, #3A3EF5 82.34%);
+}
+
+.planet {
+    position: absolute;
+    top: 25%;
+    left: 0%;
 }
 
 .pt-24 {
@@ -106,9 +109,7 @@ ul {
 }
 
 .call-now-btn:hover {
-    background: linear-gradient(103.52deg, #B2FEFA 0%,
-            #0ED2F7 51%,
-            #B2FEFA 100%);
+    background: linear-gradient(103.52deg, #32C8F1 18.99%, #3A3EF5 82.34%);
 }
 
 .mb-56 {
@@ -169,6 +170,10 @@ ul {
     padding: 24px;
     background: linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%);
     border-radius: 24px;
+}
+
+.pt-10 {
+    padding-top: 10px;
 }
 
 .gap-8 {
@@ -272,6 +277,10 @@ ul {
     margin-top: 32px;
 }
 
+.up:hover {
+    transform: scale(1.1);
+}
+
 .footer-link {
     color: white;
 }
@@ -350,6 +359,13 @@ ul {
     }
 }
 
+@media (max-width:767.98px) {
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
@@ -402,6 +418,13 @@ ul {
 
     .pt-156 {
         padding-top: 156px;
+    }
+}
+
+@media (max-width:545.98px) {
+    .planet {
+        width: 100%;
+        top: 46%;
     }
 }
 

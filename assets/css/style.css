@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url(../css/root.css);
 
+/***** header *****/
 .bg-img {
-    background-image: url("../images/section-1-bg-img.png");
+    background-image: url("../images/aection-1-bg-img.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11,7 +12,7 @@
     background-color: #01010C;
 }
 
-.cursor-poiner {
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -31,9 +32,12 @@
     right: 0 !important;
 }
 
-.up:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease-in-out;
+.navbar-link {
+    color: white;
+}
+
+.navbar-link:hover {
+    color: #00c8ff;
 }
 
 .menu-lines {
@@ -44,7 +48,6 @@
     z-index: 10;
     transition: all 300ms linear;
     transform-origin: left;
-    /* background-color: var(--null); */
     border-radius: 10px;
     background-color: white;
 }
@@ -65,12 +68,30 @@ ul {
     animation: up-and-down 3s ease-in-out infinite;
 }
 
-.nav-btn-1,
+.nav-btn-1 {
+    padding: 13px 32px 13px 32px;
+    border-radius: 57px;
+    background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
+    box-shadow: 0px 0px 12px 0px #BF97FF3D inset;
+}
+
 .nav-btn-2 {
     padding: 13px 32px 13px 32px;
     border-radius: 57px;
     background: linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%);
     box-shadow: 0px 0px 12px 0px #BF97FF3D inset;
+}
+
+.nav-btn-1:hover {
+    background: linear-gradient(103.52deg, #B2FEFA 0%,
+            #0ED2F7 51%,
+            #B2FEFA 100%);
+}
+
+.nav-btn-2:hover {
+    background: linear-gradient(103.52deg, #B2FEFA 0%,
+            #0ED2F7 51%,
+            #B2FEFA 100%);
 }
 
 .pt-24 {
@@ -84,6 +105,12 @@ ul {
     box-shadow: 0px 0px 12px 0px #BF97FF3D inset;
 }
 
+.call-now-btn:hover {
+    background: linear-gradient(103.52deg, #B2FEFA 0%,
+            #0ED2F7 51%,
+            #B2FEFA 100%);
+}
+
 .mb-56 {
     margin-bottom: 56px;
 }
@@ -92,7 +119,9 @@ ul {
     max-width: 705px;
 }
 
-/* section 1 */
+/***** header done *****/
+
+/***** section 1 *****/
 
 .mt-56 {
     margin-top: 56px;
@@ -102,22 +131,24 @@ ul {
     margin-bottom: 175px;
 }
 
-.section-2-card {
+.max-w-180 {
+    max-width: 180px;
+}
+
+.max-w-225 {
+    max-width: 225px;
+}
+
+.section-1-card-3 {
     position: relative;
     max-width: 365px;
     height: 114px;
 }
 
-.section-2-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    padding-right: 1px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
-    mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0);
-    mask-composite: exclude;
+.section-1-card {
+    position: relative;
+    max-width: 365px;
+    height: 114px;
 }
 
 .mb-24 {
@@ -128,18 +159,16 @@ ul {
     margin-bottom: 210px;
 }
 
-/* section 1 */
+/***** section 1 done *****/
+
+/***** section 2 *****/
+
 .slider-card {
     max-width: 364px;
     height: 289px;
     padding: 24px;
-    border-radius: 24px;
     background: linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%);
-}
-
-.slick-track {
-    display: flex !important;
-    gap: 24px !important;
+    border-radius: 24px;
 }
 
 .gap-8 {
@@ -150,35 +179,21 @@ ul {
     padding-top: 40px;
 }
 
-.slick-dots {
-    position: absolute;
-    bottom: -25px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+.slick-track {
+    gap: 24px !important;
+    display: flex !important;
+    padding-top: 40px;
 }
 
 .slick-dots li button:before {
-    color: white !important;
-    font-size: 6px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25px !important;
-    height: 25px !important;
-    content: '•';
-    text-align: center;
-    opacity: 25%;
+    color: #FFFFFF !important;
 }
 
-/* section 3 */
+/***** section 2 done *****/
+
+/***** section 3 *****/
 .accordion {
     max-width: 1022px;
-    height: 184px;
     padding: 24px;
     --bs-accordion-border-color: none !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
@@ -215,12 +230,14 @@ ul {
     margin-top: 24px;
 }
 
-/* footer */
+/***** section 3 done *****/
+
+/***** footer *****/
 .pt-14 {
     padding-top: 14px;
 }
 
-.mt-356 {
+.pt-356 {
     padding-top: 356px;
 }
 
@@ -251,6 +268,19 @@ ul {
     padding-bottom: 30px;
 }
 
+.mt-32 {
+    margin-top: 32px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: #00c8ff;
+    opacity: 100%;
+}
+
 .line {
     position: relative;
 }
@@ -260,7 +290,7 @@ ul {
     position: absolute;
     inset: 0;
     border-radius: 50px;
-    padding: 2px;
+    padding: 1px;
     background: linear-gradient(90deg,
             rgba(255, 255, 255, 0) 0%,
             rgba(255, 255, 255, 0.7) 47%,
@@ -271,6 +301,9 @@ ul {
     mask-composite: exclude;
 }
 
+/***** footer done *****/
+
+/***** animation *****/
 @keyframes up-and-down {
     0% {
         transform: translateY(0);
@@ -285,21 +318,35 @@ ul {
     }
 }
 
+/***** animation done *****/
+
+/***** responsive *****/
 @media (max-width:575.98px) {
     .heading {
         font-size: var(--fs-lg);
         line-height: normal;
     }
 
-    .mt-356 {
-        margin-top: 550px;
+    .pt-356 {
+        padding-top: 200px;
     }
 }
 
 @media (min-width:768px) {
     .accordion {
         width: 1022px;
-        height: 72px;
+    }
+
+    .section-1-card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding-right: 1px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+        mask:
+            linear-gradient(#000 0 0) content-box,
+            linear-gradient(#000 0 0);
+        mask-composite: exclude;
     }
 }
 
@@ -330,10 +377,32 @@ ul {
     .nav-btn-2 {
         display: none;
     }
+
+    .pt-100 {
+        padding-top: 100px;
+    }
+
+    .pt-156 {
+        padding-top: 60px;
+    }
 }
 
 @media (min-width:992px) {
     .nav-btn-1 {
         display: none;
     }
+
+    .bg-img {
+        padding-bottom: 200px;
+    }
+
+    .robot-img {
+        padding-bottom: 118px;
+    }
+
+    .pt-156 {
+        padding-top: 156px;
+    }
 }
+
+/***** responsive done *****/

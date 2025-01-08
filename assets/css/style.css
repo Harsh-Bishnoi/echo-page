@@ -208,6 +208,7 @@ ul {
     padding: 24px;
     --bs-accordion-border-color: none !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-btn-icon-transition: transform 0.3s ease-in-out !important;
 }
 
 .accordion-item {
@@ -315,6 +316,7 @@ ul {
 
 .up:hover {
     transform: scale(1.1);
+    transition: 300ms all linear;
 }
 
 .footer-link {

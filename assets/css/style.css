@@ -263,10 +263,6 @@ ul {
     mask-composite: exclude;
 }
 
-.mb-356 {
-    margin-bottom: 356px;
-}
-
 .mt-60 {
     margin-top: 60px;
 }
@@ -377,7 +373,7 @@ ul {
     }
 
     .pt-356 {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 }
 

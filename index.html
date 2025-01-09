@@ -27,55 +27,59 @@
 
 </head>
 
-<body class="bg-color">
+<body class="color-ninja">
 
     <!--***** header *****-->
     <header
-        class="bg-img min-vh-10 0 d-flex align-items-center justify-content-center flex-column mb-56 position-relative">
-        <div class="container">
-            <nav class="d-flex py-2 align-items-center justify-content-between w-100">
-                <img src="./assets/images/svg/navbar-logo.svg" alt="navbar-logo" class="cursor-pointer">
-                <ul id="name"
-                    class="d-flex mb-0 mx-auto align-items-center gap-32 nav-link text-decoration-none list-unstyled">
-                    <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20"
-                            href="#">About us</a></li>
-                    <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20"
-                            href="#">Solutions</a></li>
-                    <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20"
-                            href="#">Benefits</a></li>
-                    <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20"
-                            href="#">Testimonials</a></li>
-                    <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20"
-                            href="#">FAQs</a></li>
-                    <li><button class="nav-btn-1 font-family-primary fw-semibold text-white lh-25 fs-small border-0">Get
-                            Started</button></li>
-                </ul>
-                <ul class="list-unstyled">
-                    <li><button class="nav-btn-2 font-family-primary fw-semibold text-white lh-25 fs-small border-0">Get
-                            Started</button></li>
-                </ul>
-                <div onclick="navbarbtn()" class="z-5 d-block d-lg-none">
-                    <span class="menu-lines" id="rotates"></span>
-                    <span class="menu-lines" id="transparent"></span>
-                    <span class="menu-lines" id="rotates2"></span>
+        class="bg-img bg-size-full d-flex align-items-center justify-content-center flex-column mb-56 position-relative">
+        <nav class="py-14 w-100">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <img src="./assets/images/svg/navbar-logo.svg" alt="navbar-logo" class="cursor-pointer">
+                    <ul id="name"
+                        class="d-flex mb-0 align-items-center gap-32 nav-link text-decoration-none list-unstyled">
+                        <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20 color-white"
+                                href="/">About us</a></li>
+                        <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20 color-white"
+                                href="/">Solutions</a></li>
+                        <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20 color-white"
+                                href="/">Benefits</a></li>
+                        <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20 color-white"
+                                href="/">Testimonials</a></li>
+                        <li><a class="text-decoration-none navbar-link font-family-primary fw-normal fs-6 lh-20 color-white"
+                                href="/">FAQs</a></li>
+                        <li class="menu-btn"><button
+                                class="nav-btn-1 font-family-primary fw-semibold text-white lh-25 fs-5 border-0">Get
+                                Started</button></li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <ul class="list-unstyled mb-0">
+                            <li><button
+                                    class="nav-btn-2 font-family-primary fw-semibold text-white lh-25 fs-5 border-0">Get
+                                    Started</button></li>
+                        </ul>
+                        <div onclick="navbarbtn()" class="z-5 d-block d-lg-none cursor-pointer">
+                            <span class="menu-lines bg-light" id="rotates"></span>
+                            <span class="menu-lines bg-light" id="transparent"></span>
+                            <span class="menu-lines bg-light" id="rotates2"></span>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
         <div class="flex-grow-1 d-flex align-items-center justify-content-center">
-            <img src="./assets/images/svg/planet-img.svg" alt="planet-img" class="planet">
+            <img src="./assets/images/svg/planet-img.svg" alt="planet-img" class="planet position-absolute">
             <div class="container pt-156">
                 <div class="row">
-                    <div class="col-lg-8 col-12">
-                        <div class="d-flex justify-content-center">
-                            <h1
-                                class="heading font-family-primary fw-bold text-center text-white fs-xl max-w-705 lh-86 text-center">
-                                Innovate, Automate, Accelerate</h1>
-                        </div>
-                        <h3 class="font-family-primary font-normal fs-small text-white lh-30 text-center pt-24">Next Gen
-                            AI Automation to Scale Your Business.</h3>
-                        <div class="d-flex justify-content-center">
+                    <div class="col-lg-8 col-12 z-1">
+                        <h1 class="heading font-family-primary fw-bold text-center text-white fs-xl max-w-705 lh-86">
+                            Innovate, Automate, Accelerate</h1>
+                        <h3 class="font-family-primary font-normal fs-5 text-white lh-30 text-center max-w-705 pt-4">
+                            Next
+                            Gen AI Automation to Scale Your Business.</h3>
+                        <div class="max-w-705">
                             <button
-                                class="call-now-btn z-1 font-family-primary fw-semibold fs-small lh-25 text-white border-0 mt-24">Book
+                                class="call-now-btn font-family-primary fw-semibold fs-5 lh-25 text-white d-flex mx-auto border-0 mt-4">Book
                                 A Call Now!</button>
                         </div>
                     </div>
@@ -89,40 +93,29 @@
     <!--***** header end *****-->
 
     <!--***** section 1 *****-->
-    <section class="d-flex align-items-center justify-content-center">
-        <div class="container mt-56 mb-175">
+    <section class="d-flex justify-content-center mb-175">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 mb-24 center">
-                    <div class="section-1-card">
-                        <h4 class="font-family-primary fw-semibold lh-57 fs-lg text-center text-white">99%</h4>
-                        <div class="d-flex justify-content-center">
-                            <h5 class="font-family-primary fw-normal lh-24 fs-small text-center text-white max-w-180">
-                                Of all businesses see results with AI</h5>
-                        </div>
-                    </div>
+                <div class="verticle-line col-6 col-md-4 z-1">
+                    <h2 class="font-family-primary fw-semibold lh-57 fs-lg text-center text-white">99%</h2>
+                    <p class="font-family-primary fw-normal lh-24 fs-small text-center text-white max-w-180 mx-auto">Of
+                        all businesses see results with AI</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-24 center">
-                    <div class="section-1-card">
-                        <h4 class="font-family-primary fw-semibold lh-57 fs-lg text-center text-white">$15T</h4>
-                        <div class="d-flex justify-content-center">
-                            <h5 class="font-family-primary fw-normal lh-24 fs-small text-center text-white max-w-180">
-                                Projected global AI market cap by 2030</h5>
-                        </div>
-                    </div>
+                <div class="verticle-line-2 col-6 col-md-4 z-1">
+                    <h2 class="font-family-primary fw-semibold lh-57 fs-lg text-center text-white">$15T</h2>
+                    <p class="font-family-primary fw-normal lh-24 fs-small text-center text-white max-w-180 mx-auto">
+                        Projected global AI market cap by 2030</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 mb-24 center">
-                    <div class="section-1-card-3">
-                        <h4 class="font-family-primary fw-semibold lh-57 fs-lg text-center text-white">3.5X</h4>
-                        <div class="d-flex justify-content-center">
-                            <h5 class="font-family-primary fw-normal lh-24 fs-small text-center text-white max-w-225">
-                                More likely to outperform competitors with AI</h5>
-                        </div>
-                    </div>
+                <div class="col-6 col-md-4 mx-auto mx-md-0 z-1">
+                    <h2 class="font-family-primary fw-semibold lh-57 fs-lg text-center text-white">3.5X</h2>
+                    <p class="font-family-primary fw-normal lh-24 fs-small text-center text-white max-w-225 mx-auto">
+                        More likely to outperform competitors with AI</p>
                 </div>
             </div>
         </div>
     </section>
-    <!--***** section 1 end *****-->
+
+    <!-- ***** section 1 end ***** -->
 
     <!--***** section 2 *****-->
     <section class="d-flex align-items-center justify-content-center mb-210">
@@ -134,7 +127,7 @@
                     <h6 class="font-family-primary fw-noraml fs-extra-small lh-24 opacity-80 text-white">“I’m genuinely
                         impressed with how the AI nurtures conversations and handles appointment setting. It adapts
                         quickly, is 100% human like and has consistently outperformed expectations.”</h6>
-                    <div class="d-flex gap-8 pt-47">
+                    <div class="d-flex gap-8 pt-40">
                         <img src="./assets/images/svg/slider-card-img-1.svg" alt="card-img-1">
                         <div>
                             <h6 class="font-family-primary fw-medium fs-small lh-24 text-white">Miguel Jordan,</h6>
@@ -148,13 +141,12 @@
                     <h6 class="font-family-primary fw-noraml fs-extra-small lh-24 opacity-80 text-white">“ECHO AI has
                         really revolutionized our operations. My team never has to chase down resources anymore—it’s all
                         instantly accessible, streamlining our workflow and freeing up time.”</h6>
-                    <div class="d-flex gap-8 pt-47">
+                    <div class="d-flex gap-8 pt-40">
                         <img src="./assets/images/svg/slider-card-img-2.svg" alt="card-img-2">
                         <div>
                             <h6 class="font-family-primary fw-medium fs-small lh-24 text-white">Rachel Lettice,</h6>
                             <span class="font-family-primary fw-normal fs-extra-small lh-24 text-white">Creative
-                                Director
-                            </span>
+                                Director</span>
                         </div>
                     </div>
                 </div>
@@ -163,14 +155,13 @@
                     <h6 class="font-family-primary fw-noraml fs-extra-small lh-24 opacity-80 text-white">“The autonomous
                         sales flow is extremely effective, to say the least. I was able to replace our full-time VA,
                         cutting that expense completely  while maintaining efficiency and our standard high performing
-                        results.”
-                    </h6>
+                        results.”</h6>
                     <div class="d-flex gap-8 pt-10">
                         <img src="./assets/images/svg/slider-card-img-3.svg" alt="card-img-3">
                         <div>
                             <h6 class="font-family-primary fw-medium fs-small lh-24 text-white">Mike Lotz,</h6>
-                            <span class="font-family-primary fw-normal fs-extra-small lh-24 text-white">CEO (MREM)
-                            </span>
+                            <span class="font-family-primary fw-normal fs-extra-small lh-24 text-white">CEO
+                                (MREM)</span>
                         </div>
                     </div>
                 </div>
@@ -185,10 +176,10 @@
             <h2 class="font-family-primary fw-semibold fs-lg lh-57 text-white text-center">FAQs</h2>
             <div class="d-flex justify-content-center">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item mt-60">
+                    <div class="accordion-item mt-60 position-relative">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button
-                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-small"
+                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-5"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                 aria-expanded="false" aria-controls="flush-collapseOne">
                                 What is AI Automation?
@@ -205,10 +196,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mt-24">
+                    <div class="accordion-item mt-4 position-relative">
                         <h2 class="accordion-header" id="flush-headingTwo">
                             <button
-                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-small"
+                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-5"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                 aria-expanded="false" aria-controls="flush-collapseTwo">
                                 How can AI Automation help me scale my business? </button>
@@ -224,10 +215,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mt-24">
+                    <div class="accordion-item mt-4 position-relative">
                         <h2 class="accordion-header" id="flush-headingThree">
                             <button
-                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-small"
+                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-5"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                 aria-expanded="false" aria-controls="flush-collapseThree">
                                 How does ECHO AI ensure their AI solutions are tailored to my business? </button>
@@ -243,10 +234,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mt-24">
+                    <div class="accordion-item mt-4 position-relative">
                         <h2 class="accordion-header" id="flush-headingFour">
                             <button
-                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-small"
+                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-5"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                 aria-expanded="false" aria-controls="flush-collapseFour">
                                 How much do your AI Automation solutions cost? </button>
@@ -262,10 +253,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item mt-24">
+                    <div class="accordion-item mt-4 position-relative">
                         <h2 class="accordion-header" id="flush-headingFive">
                             <button
-                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-small"
+                                class="accordion-button collapsed bg-color text-white font-family-primary fw-medium lh-24 fs-5"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                 aria-expanded="false" aria-controls="flush-collapseFive">
                                 Sounds good, so how do I get started? </button>
@@ -289,88 +280,76 @@
 
     <!--***** footer *****-->
     <footer class="d-flex align-items-center justify-content-center pt-356">
-        <div class="container w-100">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-12 d-flex justify-content-center align-items-center">
-                    <img src="./assets/images/svg/footer-logo.svg" alt="logo" class="cursor-pointer">
+                <div class="col-12 col-md-4 align-items-center d-flex justify-content-center">
+                    <img src="./assets/images/svg/footer-logo.svg" alt="footer-logo" class="cursor-pointer">
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 col-6-sm justify-content-center align-items-center d-flex">
                     <ul class="list-unstyled mt-40">
-                        <li
-                            class="font-family-primary fw-normal fs-extra-small lh-20 text-white text-center text-md-start">
-                            Quick Links</li>
-                        <li class="pt-14 text-center text-md-start"><a
+                        <li class="font-family-primary fw-normal fs-extra-small lh-20 text-white">Quick Links</li>
+                        <li class="pt-14"><a
                                 class="footer-link text-decoration-none font-family-primary fw-normal fs-extra-small lh-20 opacity-70"
-                                href="">About us</a></li>
-                        <li class="pt-14 text-center text-md-start"><a
+                                href="">About
+                                us</a></li>
+                        <li class="pt-14"><a
                                 class="footer-link text-decoration-none font-family-primary fw-normal fs-extra-small lh-20 opacity-70"
                                 href="">Solutions</a></li>
-                        <li class="pt-14 text-center text-md-start"><a
+                        <li class="pt-14"><a
                                 class="footer-link text-decoration-none font-family-primary fw-normal fs-extra-small lh-20 opacity-70"
                                 href="">Benefits</a></li>
-                        <li class="pt-14 text-center text-md-start"><a
+                        <li class="pt-14"><a
                                 class="footer-link text-decoration-none font-family-primary fw-normal fs-extra-small lh-20 opacity-70"
                                 href="">Testimonials</a></li>
-                        <li class="pt-14 text-center text-md-start"><a
+                        <li class="pt-14"><a
                                 class="footer-link text-decoration-none font-family-primary fw-normal fs-extra-small lh-20 opacity-70"
                                 href="">FAQs</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-                    <h4
-                        class="font-family-primary fw-normal fs-extra-small lh-20 text-white mt-40 d-flex justify-content-center align-items-center">
-                        Send Us An E-mail
-                    </h4>
-                    <a class="footer-link font-family-primary fw-normal fs-extra-small lh-20 opacity-70 text-decoration-none d-flex justify-content-center align-items-center"
-                        href="#">info@echoai.ai
-                    </a>
-                    <h4
-                        class="font-family-primary fw-normal fs-extra-small lh-20 text-white mt-32 d-flex justify-content-center align-items-center">
-                        Follow Us On</h4>
-                    <div class="d-flex gap-12 mt-18 justify-content-center align-items-center">
-                        <div class="up">
-                            <a href="https://www.linkedin.com/login" target="_blank">
-                                <div class="circle d-flex justify-content-center align-items-center">
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M3.39046 2.1675C3.39024 2.60953 3.21443 3.03336 2.90172 3.34577C2.589 3.65817 2.16499 3.83355 1.72296 3.83333C1.28094 3.83311 0.857099 3.65731 0.544695 3.34459C0.232291 3.03187 0.0569081 2.60786 0.0571291 2.16583C0.0573501 1.72381 0.233157 1.29997 0.545874 0.987566C0.858591 0.675162 1.2826 0.499779 1.72463 0.5C2.16666 0.500221 2.59049 0.676028 2.9029 0.988745C3.2153 1.30146 3.39068 1.72547 3.39046 2.1675ZM3.44046 5.0675H0.107129V15.5008H3.44046V5.0675ZM8.70713 5.0675H5.39046V15.5008H8.6738V10.0258C8.6738 6.97583 12.6488 6.6925 12.6488 10.0258V15.5008H15.9405V8.8925C15.9405 3.75083 10.0571 3.9425 8.6738 6.4675L8.70713 5.0675Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
+                <div class="col-12 col-md-4 col-6-sm justify-content-center d-flex">
+                    <div>
+                        <ul class="list-unstyled mt-40">
+                            <li class="font-family-primary fw-normal fs-extra-small lh-20 text-white mb-3">Send Us An
+                                E-mail</li>
+                            <li><a class="footer-link font-family-primary fw-normal fs-extra-small lh-20 opacity-70 text-decoration-none"
+                                    href="">info@echoai.ai</a></li>
+                            <li class="font-family-primary fw-normal fs-extra-small lh-20 text-white mt-32">Follow Us On
+                            </li>
+                        </ul>
+                        <div class="d-flex gap-2 mt-18 gap-sm-3">
+                            <a class="circle d-flex justify-content-center align-items-center "
+                                href="https://www.linkedin.com/login" target="_blank">
+                                <svg class="up" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.39046 4.1675C6.39024 4.60953 6.21443 5.03336 5.90172 5.34577C5.589 5.65817 5.16499 5.83355 4.72296 5.83333C4.28094 5.83311 3.8571 5.65731 3.5447 5.34459C3.23229 5.03187 3.05691 4.60786 3.05713 4.16583C3.05735 3.72381 3.23316 3.29997 3.54587 2.98757C3.85859 2.67516 4.2826 2.49978 4.72463 2.5C5.16666 2.50022 5.59049 2.67603 5.9029 2.98874C6.2153 3.30146 6.39068 3.72547 6.39046 4.1675ZM6.44046 7.0675H3.10713V17.5008H6.44046V7.0675ZM11.7071 7.0675H8.39046V17.5008H11.6738V12.0258C11.6738 8.97583 15.6488 8.6925 15.6488 12.0258V17.5008H18.9405V10.8925C18.9405 5.75083 13.0571 5.9425 11.6738 8.4675L11.7071 7.0675Z"
+                                        fill="white" />
+                                </svg>
                             </a>
-                        </div>
-                        <div class="up">
-                            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
-                                <div class="circle d-flex justify-content-center align-items-center">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M9.85673 0.666016C10.7942 0.668516 11.2701 0.673516 11.6809 0.685182L11.8426 0.691016C12.0292 0.697682 12.2134 0.706016 12.4359 0.716016C13.3226 0.757682 13.9276 0.897682 14.4584 1.10352C15.0084 1.31518 15.4717 1.60185 15.9351 2.06435C16.359 2.48079 16.6869 2.98474 16.8959 3.54102C17.1017 4.07185 17.2417 4.67685 17.2834 5.56435C17.2934 5.78602 17.3017 5.97018 17.3084 6.15768L17.3134 6.31935C17.3259 6.72935 17.3309 7.20518 17.3326 8.14268L17.3334 8.76435V9.85602C17.3354 10.4639 17.329 11.0717 17.3142 11.6793L17.3092 11.841C17.3026 12.0285 17.2942 12.2127 17.2842 12.4343C17.2426 13.3218 17.1009 13.926 16.8959 14.4577C16.6869 15.014 16.359 15.5179 15.9351 15.9343C15.5186 16.3583 15.0147 16.6862 14.4584 16.8952C13.9276 17.101 13.3226 17.241 12.4359 17.2827L11.8426 17.3077L11.6809 17.3127C11.2701 17.3243 10.7942 17.3302 9.85673 17.3318L9.23507 17.3327H8.14423C7.53612 17.3348 6.928 17.3284 6.32007 17.3135L6.1584 17.3085C5.96058 17.301 5.76279 17.2924 5.56507 17.2827C4.6784 17.241 4.0734 17.101 3.54173 16.8952C2.98576 16.6861 2.4821 16.3582 2.0659 15.9343C1.64169 15.518 1.31349 15.014 1.10423 14.4577C0.898401 13.9268 0.7584 13.3218 0.716734 12.4343L0.691734 11.841L0.687567 11.6793C0.672206 11.0717 0.66526 10.4639 0.666734 9.85602V8.14268C0.664427 7.53485 0.670539 6.92701 0.685067 6.31935L0.6909 6.15768C0.697567 5.97018 0.7059 5.78602 0.7159 5.56435C0.757567 4.67685 0.897567 4.07268 1.1034 3.54102C1.31315 2.98451 1.64192 2.48055 2.06673 2.06435C2.48269 1.64064 2.98606 1.31274 3.54173 1.10352C4.0734 0.897682 4.67757 0.757682 5.56507 0.716016C5.78673 0.706016 5.97173 0.697682 6.1584 0.691016L6.32007 0.686016C6.92773 0.67121 7.53556 0.66482 8.1434 0.666849L9.85673 0.666016ZM9.00007 4.83268C7.895 4.83268 6.83519 5.27167 6.05379 6.05307C5.27239 6.83447 4.8334 7.89428 4.8334 8.99935C4.8334 10.1044 5.27239 11.1642 6.05379 11.9456C6.83519 12.727 7.895 13.166 9.00007 13.166C10.1051 13.166 11.1649 12.727 11.9463 11.9456C12.7277 11.1642 13.1667 10.1044 13.1667 8.99935C13.1667 7.89428 12.7277 6.83447 11.9463 6.05307C11.1649 5.27167 10.1051 4.83268 9.00007 4.83268ZM9.00007 6.49935C9.32837 6.49929 9.65347 6.5639 9.95681 6.68949C10.2601 6.81508 10.5358 6.99918 10.768 7.23129C11.0001 7.4634 11.1843 7.73896 11.31 8.04226C11.4357 8.34555 11.5004 8.67063 11.5005 8.99893C11.5005 9.32724 11.4359 9.65234 11.3103 9.95567C11.1848 10.259 11.0007 10.5346 10.7685 10.7668C10.5364 10.999 10.2609 11.1832 9.95758 11.3089C9.65428 11.4346 9.3292 11.4993 9.0009 11.4993C8.33786 11.4993 7.70197 11.236 7.23313 10.7671C6.76429 10.2983 6.5009 9.66239 6.5009 8.99935C6.5009 8.33631 6.76429 7.70042 7.23313 7.23158C7.70197 6.76274 8.33786 6.49935 9.0009 6.49935M13.3759 3.58268C13.0996 3.58268 12.8347 3.69243 12.6393 3.88778C12.444 4.08313 12.3342 4.34808 12.3342 4.62435C12.3342 4.90062 12.444 5.16557 12.6393 5.36092C12.8347 5.55627 13.0996 5.66602 13.3759 5.66602C13.6522 5.66602 13.9171 5.55627 14.1125 5.36092C14.3078 5.16557 14.4176 4.90062 14.4176 4.62435C14.4176 4.34808 14.3078 4.08313 14.1125 3.88778C13.9171 3.69243 13.6522 3.58268 13.3759 3.58268Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
+                            <a class="circle d-flex justify-content-center align-items-center "
+                                href="https://www.instagram.com/accounts/login/?hl=en" target="_blank">
+
+                                <svg class="up" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.8567 1.66602C11.7942 1.66852 12.2701 1.67352 12.6809 1.68518L12.8426 1.69102C13.0292 1.69768 13.2134 1.70602 13.4359 1.71602C14.3226 1.75768 14.9276 1.89768 15.4584 2.10352C16.0084 2.31518 16.4717 2.60185 16.9351 3.06435C17.359 3.48079 17.6869 3.98474 17.8959 4.54102C18.1017 5.07185 18.2417 5.67685 18.2834 6.56435C18.2934 6.78602 18.3017 6.97018 18.3084 7.15768L18.3134 7.31935C18.3259 7.72935 18.3309 8.20518 18.3326 9.14268L18.3334 9.76435V10.856C18.3354 11.4639 18.329 12.0717 18.3142 12.6793L18.3092 12.841C18.3026 13.0285 18.2942 13.2127 18.2842 13.4343C18.2426 14.3218 18.1009 14.926 17.8959 15.4577C17.6869 16.014 17.359 16.5179 16.9351 16.9343C16.5186 17.3583 16.0147 17.6862 15.4584 17.8952C14.9276 18.101 14.3226 18.241 13.4359 18.2827L12.8426 18.3077L12.6809 18.3127C12.2701 18.3243 11.7942 18.3302 10.8567 18.3318L10.2351 18.3327H9.14423C8.53612 18.3348 7.928 18.3284 7.32007 18.3135L7.1584 18.3085C6.96058 18.301 6.76279 18.2924 6.56507 18.2827C5.6784 18.241 5.0734 18.101 4.54173 17.8952C3.98576 17.6861 3.4821 17.3582 3.0659 16.9343C2.64169 16.518 2.31349 16.014 2.10423 15.4577C1.8984 14.9268 1.7584 14.3218 1.71673 13.4343L1.69173 12.841L1.68757 12.6793C1.67221 12.0717 1.66526 11.4639 1.66673 10.856V9.14268C1.66443 8.53485 1.67054 7.92701 1.68507 7.31935L1.6909 7.15768C1.69757 6.97018 1.7059 6.78602 1.7159 6.56435C1.75757 5.67685 1.89757 5.07268 2.1034 4.54102C2.31315 3.98451 2.64192 3.48055 3.06673 3.06435C3.48269 2.64064 3.98606 2.31274 4.54173 2.10352C5.0734 1.89768 5.67757 1.75768 6.56507 1.71602C6.78673 1.70602 6.97173 1.69768 7.1584 1.69102L7.32007 1.68602C7.92773 1.67121 8.53556 1.66482 9.1434 1.66685L10.8567 1.66602ZM10.0001 5.83268C8.895 5.83268 7.83519 6.27167 7.05379 7.05307C6.27239 7.83447 5.8334 8.89428 5.8334 9.99935C5.8334 11.1044 6.27239 12.1642 7.05379 12.9456C7.83519 13.727 8.895 14.166 10.0001 14.166C11.1051 14.166 12.1649 13.727 12.9463 12.9456C13.7277 12.1642 14.1667 11.1044 14.1667 9.99935C14.1667 8.89428 13.7277 7.83447 12.9463 7.05307C12.1649 6.27167 11.1051 5.83268 10.0001 5.83268ZM10.0001 7.49935C10.3284 7.49929 10.6535 7.5639 10.9568 7.68949C11.2601 7.81508 11.5358 7.99918 11.768 8.23129C12.0001 8.4634 12.1843 8.73896 12.31 9.04226C12.4357 9.34555 12.5004 9.67063 12.5005 9.99893C12.5005 10.3272 12.4359 10.6523 12.3103 10.9557C12.1848 11.259 12.0007 11.5346 11.7685 11.7668C11.5364 11.999 11.2609 12.1832 10.9576 12.3089C10.6543 12.4346 10.3292 12.4993 10.0009 12.4993C9.33786 12.4993 8.70197 12.236 8.23313 11.7671C7.76429 11.2983 7.5009 10.6624 7.5009 9.99935C7.5009 9.33631 7.76429 8.70042 8.23313 8.23158C8.70197 7.76274 9.33786 7.49935 10.0009 7.49935M14.3759 4.58268C14.0996 4.58268 13.8347 4.69243 13.6393 4.88778C13.444 5.08313 13.3342 5.34808 13.3342 5.62435C13.3342 5.90062 13.444 6.16557 13.6393 6.36092C13.8347 6.55627 14.0996 6.66602 14.3759 6.66602C14.6522 6.66602 14.9171 6.55627 15.1125 6.36092C15.3078 6.16557 15.4176 5.90062 15.4176 5.62435C15.4176 5.34808 15.3078 5.08313 15.1125 4.88778C14.9171 4.69243 14.6522 4.58268 14.3759 4.58268Z"
+                                        fill="white" />
+                                </svg>
+
                             </a>
-                        </div>
-                        <div class="up">
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <div class="circle d-flex justify-content-center align-items-center">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M17.3334 8.99935C17.3334 4.39935 13.6001 0.666016 9.00008 0.666016C4.40008 0.666016 0.666748 4.39935 0.666748 8.99935C0.666748 13.0327 3.53341 16.391 7.33341 17.166V11.4993H5.66675V8.99935H7.33341V6.91602C7.33341 5.30768 8.64175 3.99935 10.2501 3.99935H12.3334V6.49935H10.6667C10.2084 6.49935 9.83341 6.87435 9.83341 7.33268V8.99935H12.3334V11.4993H9.83341V17.291C14.0417 16.8743 17.3334 13.3243 17.3334 8.99935Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
+                            <a class="circle d-flex justify-content-center align-items-center "
+                                href="https://www.facebook.com/" target="_blank">
+                                <svg class="up" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M18.3334 9.99935C18.3334 5.39935 14.6001 1.66602 10.0001 1.66602C5.40008 1.66602 1.66675 5.39935 1.66675 9.99935C1.66675 14.0327 4.53341 17.391 8.33341 18.166V12.4993H6.66675V9.99935H8.33341V7.91602C8.33341 6.30768 9.64175 4.99935 11.2501 4.99935H13.3334V7.49935H11.6667C11.2084 7.49935 10.8334 7.87435 10.8334 8.33268V9.99935H13.3334V12.4993H10.8334V18.291C15.0417 17.8743 18.3334 14.3243 18.3334 9.99935Z"
+                                        fill="white" />
+                                </svg>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="line mt-60"></div>
+            <div class="line mt-60 position-relative"></div>
             <h5 class="font-family-first fw-normal fs-extra-small lh-24 text-center text-white pt-20 pb-30 opacity-80">
-                Copyright
-                ECHO AI © 2025 | All Rights Reserved</h5>
+                Copyright ECHO AI © 2025 | All Rights Reserved</h5>
         </div>
     </footer>
     <!--***** footer end *****-->

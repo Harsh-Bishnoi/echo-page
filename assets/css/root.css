@@ -1,5 +1,8 @@
 :root {
     --font-family-primary: "Outfit", serif;
+    --color-ninja: #01010C;
+    --color-white: #FFFFFF;
+    --color-sky-blue:#00c8ff;
     --fs-extra-small: 16px;
     --fs-small: 20px;
     --fs-sm: 24px;
@@ -74,4 +77,27 @@
 
 .opacity-80 {
     opacity: 80%;
+}
+
+.color-ninja {
+    background-color: var(--color-ninja) !important;
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-xl: 48px;
+        --lh-86: 60px;
+        --fs-lg: 30px;
+    }
+}
+
+@media (max-width:565.98px) {
+    :root {
+        --fs-small: 16px;
+    }
 }

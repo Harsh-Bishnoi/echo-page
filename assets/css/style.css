@@ -160,6 +160,7 @@
 
 .accordion-button::after {
     background-image: url(../images/svg/arrow-svg.svg) !important;
+    margin-top: 7px;
 }
 
 .accordion-header .accordion-button {

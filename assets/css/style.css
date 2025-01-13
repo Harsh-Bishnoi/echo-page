@@ -141,33 +141,37 @@
 
 /***** section 2 done *****/
 /***** section 3 *****/
-.accordion {
+.section-3 .accordion {
     max-width: 1022px;
     width: 100%;
     --bs-accordion-border-color: none !important;
     --bs-accordion-btn-focus-box-shadow: none !important;
 }
 
-.accordion-item {
+.section-3 .accordion-item {
     background-color: var(--color-ninja) !important;
     border: 1px solid #FFFFFF1A !important;
     border-radius: 12px !important;
 }
 
-.accordion-button {
+.section-3 .accordion-button {
     background-color: var(--color-ninja) !important;
 }
 
-.accordion-button::after {
+.section-3 .accordion-button::after {
     background-image: url(../images/svg/arrow-svg.svg) !important;
     margin-top: 7px;
 }
 
-.accordion-header .accordion-button {
+.section-3 .accordion-body {
+    padding-top: 0px !important;
+}
+
+.section-3 .accordion-header .accordion-button {
     border-radius: 12px !important;
 }
 
-.accordion-item::before {
+.section-3 .accordion-item::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -180,7 +184,7 @@
     mask-composite: exclude;
 }
 
-.accordion-button:not(.collapsed)::before {
+.section-3 .accordion-button:not(.collapsed)::before {
     content: "";
     position: absolute;
     inset: 0;
